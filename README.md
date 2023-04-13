@@ -28,19 +28,24 @@ Few prototype we made:
 
     
     1- Home page:
-    ![](./image/prototype/Home%20Page.png)
+
+![](./image/prototype/Home_Page.png)
 
     2- Sign up:
-    ![](./image/prototype/Sign%20up.png)
+
+![](./image/prototype/Sign_up.png)
 
     3- Create a Campaign:
-    ![](./image/prototype/Create%20Campagin.png)
+
+![](./image/prototype/Create_Campagin.png)
 
     4- Review page:
-    ![](./image/prototype/Review%20page.png)
+
+![](./image/prototype/Review_page.png)
 
     5- View events histroy:
-    ![](./image/prototype/View%20events.png)
+
+![](./image/prototype/View_events.png)
 
 
 Obv it is still on progress and we will do our best to get the most and helpful website for our community to support them.
