@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/home-page/style/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>منصة التطوعية للطلاب</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <div class="web-logo">
+                    <a href="/src/home-page/page/home-page.html">
+                        <img class="icon-logo" src="/src/home-page/image/icon-home.png" alt="Home icon">
+                    </a>
+                </div>
+                <div class="searchbar">
+                    <input type="text" name="search" id="search" class="search"><!-- TODO onkey function -->
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="btn">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <div class="dropdown">
+                <form action=""><!-- TODO php -->
+                    <label class="dropdown-label">البريد الاكتروني</label>
+                    <li><input type="email" name="email" class="input-field"></li>
+
+                    <label class="dropdown-label">&nbsp; الرمز السري</label>
+                    <li><input type="password" name="password" class="input-field"></li>
+
+                    <li><button type="submit" class="btn-submit">تسجيل دخول</button></li>
+                    <li><a href="/src/home-page/page/sign-up.html" class="btn-submit">تسجيل </a></li>
+                </form>
+            </div>
+        </header>
+    </div>
+    <script src="/src/home-page/script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+// After submit the school/admin only must approve the student -- Alert(will approve within 24 hours or 72) --
+// Add role for student
+
+first name		        fname
+second name		        sname
+last name		        lname
+
+gender			        sextype
+
+email			        email
+
+national id		        idnational
+
+date of birth		    date
+
+city			        city
+
+mobile number		    phone
+
+high school name	    schoolname
+year level		        schoollevel
+school id		        idschool
+
+guardian first name	    gfname	
+guardian second name	gsname	
+guardian last name	    glname	
+relationship		    relationship
+phone number		    gphone
+guardian city		    gcity

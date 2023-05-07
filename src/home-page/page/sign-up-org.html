@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/home-page/style/sign-up.css">
+    <title>تسجيل حساب للمنشأة</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>تسجيل حساب للمنشأة</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">المنشأة</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>اسم المنشأة</label>
+                            <input type="text" name="orgname" placeholder="اسم المنشأة" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>هاتف المنشأة</label>
+                            <input type="number" name="orgnumber" placeholder="رقم هاتف المنشأة" pattern="[0-1][0-9]*"
+                                minlength="7" maxlength="10" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>اختار قطاع الشركة</label>
+                            <select name="orgtype" required>
+                                <option disabled selected>القطاع</option>
+                                <option>حكومي</option>
+                                <option>خاص</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>المدينة</label>
+                            <input type="text" name="city" placeholder="المدينة" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>الحي</label>
+                            <input type="text" name="neighborhood" placeholder="الحي" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>اسم مدير المنشأة</label>
+                            <input type="text" name="orgmanager" placeholder="اسم مدير المنشأة" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>عدد الحملات المتوقعة لكل شهر</label>
+                            <input type="number" name="orgeventpermonth" placeholder="عدد الحملات المتوقعة" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>البريد الاكتروني</label>
+                            <input type="text" name="orgemail" placeholder="البريد الاكتروني" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>رقم مدير المنشأة</label>
+                            <input type="number" name="orgmanagerphone" placeholder="رقم مدير المنشأة"
+                                pattern="[0-5][0-9]*" minlength="10" maxlength="10" required>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="details personal">
+                    <span class="title">بيانات المسؤول عن الحملات التطوعية</span>
+    
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>اسم المسؤول عن الحملات</label>
+                            <input type="text" name="orgeventmanager" placeholder="اسم المسؤول" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>البريد الاكتروني</label>
+                            <input type="text" name="orgeventmanageremail" placeholder="البريد الاكتروني" required>
+                        </div>
+    
+                        <div class="input-field">
+                            <label>اسم المسؤول عن الحملات</label>
+                            <input type="number" name="orgmanagerphone" placeholder=" رقم المسؤول"
+                                pattern="[0-5][0-9]*" minlength="10" maxlength="10" required>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            <div class="details ID">
+                <span class="title"> عنوان المنشأة</span>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>عنوان المنشأة</label>
+                        <input type="text" name="address1" placeholder="عنوان المنشأة" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>(اختياري) عنوان المنشأة</label>
+                        <input type="text" name="address2" placeholder="عنوان المنشأة">
+                    </div>
+
+                    <div class="input-field">
+                        <label>الرمز البريدي</label>
+                        <input type="number" name="zipcode" placeholder="الرمز البريدي" minlength="4"
+                            maxlength="10" required>
+                    </div>
+                </div>
+                
+                <button class="nextBtn">
+                    <span class="btnText">تسجيل</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+            </div>
+    </div>
+    </form>
+    </div>
+
+    <script src="/src/home-page/script/sign-up.js"></script>
+</body>
+
+</html>
