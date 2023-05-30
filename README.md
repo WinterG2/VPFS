@@ -25,7 +25,7 @@ Few prototypes we made:
 
     2- Sign up:
 
-![](.prototype/Sign_up.png)
+![](./prototype/Sign%20up.png)
 
     3- Create a Campaign:
 
