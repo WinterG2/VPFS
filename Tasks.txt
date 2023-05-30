@@ -3,7 +3,7 @@ Basem:
         HTML 100%
         CSS 100%
         JS 100%
-        PHP: Pass json all event data from database to javascript.
+        PHP: Pass json all event data from database to JavaScript and CreateEvent php insert code.
     2- Sign Up Pages (4 pages):
         HTML 100%
         CSS 100%
