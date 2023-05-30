@@ -2,19 +2,19 @@
 
 Project description: 
 
-    The issuance of the decision to add volunteer hours for high school students at the beginning of the current year, there have been problems in coordinating and managing volunteer hours for students and registering for volunteering campaigns due to there is no official platform that organizes this process for the students, presents volunteering opportunities for them and keeps records for their volunteering hours.
+The issuance of the decision to add volunteer hours for high school students at the beginning of the current year, there have been problems in coordinating and managing volunteer hours for students and registering for volunteering campaigns due to there is no official platform that organizes this process for the students, presents volunteering opportunities for them and keeps records for their volunteering hours.
 
-    Many schools and groups coordinate volunteering campaigns via WhatsApp and social media, and this creates confusion between students and school administration.
+Many schools and groups coordinate volunteering campaigns via WhatsApp and social media, and this creates confusion between students and school administration.
 
-    Moreover, the national volunteer platforms are very general and do not consider the circumstances and capabilities of students as most of them are not familiar with many technical matters and do not have the social and professional experiences not to mention they are under the legal age.
+Moreover, the national volunteer platforms are very general and do not consider the circumstances and capabilities of students as most of them are not familiar with manytechnical matters and do not have the social and professional experiences not to mention they are under the legal age.
 
 We aim to:
 
-    The aim of this project is to develop and produce an online platform that allows students to browse and register for volunteering campaigns and allows the school administration to monitor and track students' progress and makes it easier for organizations to publish their volunteering campaign advertisements. The final product of this project will be a website for all concerned parties (students + schools + institutions).
+The aim of this project is to develop and produce an online platform that allows students to browse and register for volunteering campaigns and allows the school administrationto monitor and track students' progress and makes it easier for organizations to publish their volunteering campaign advertisements. The final product of this project will be awebsite for all concerned parties (students + schools + institutions).
 
 Tasks:
 
-    Written in Task.txt but not finished yet (Will be updated soon)
+Written in Task.txt but not finished yet (Will be updated soon)
 
 Few prototypes we made:
 
