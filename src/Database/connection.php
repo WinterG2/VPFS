@@ -11,10 +11,10 @@ try {
 // $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 
-    $servername = "localhost";
-    $dbusername = "root";
-    $dbpassword = "";
-    $dbname = "WG02";
+    $servername = "servername";
+    $dbusername = "dbusername";
+    $dbpassword = "dbpassword";
+    $dbname = "dbname";
 
    // Create a new MySQLi object.
     $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
