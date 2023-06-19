@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient( #a5c76eb2, #548309b2);
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: black;
+}
+
+.web-logo {
+    display: flex;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+.web-logo img {
+    height: 8vh;
+}
+
+header label {
+    display: flex;
+    position: absolute;
+    right: 6%;
+    top: 2%;
+    font-size: 50px;
+}
+
+.card-content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+    text-decoration: none;
+}
+
+.warpper-icon { 
+    display: flex;
+    width: 40vh;
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.warpper-student a .card-content .warpper-icon {
+    background: #ff8787;
+}
+
+.warpper-student a .card-content .warpper-icon:hover {
+    background: #ff87879f
+}
+
+.warpper-school a .card-content .warpper-icon {
+    background: #fdff9e;
+}
+
+.warpper-school a .card-content .warpper-icon:hover {
+    background: #fdff9e8f;
+}
+
+.warpper-org a .card-content .warpper-icon {
+    background: #99ffee;
+}
+
+.warpper-org a .card-content .warpper-icon:hover {
+    background: #86e6d6;
+}
+
+.card-content .card-header {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.555);
+    align-items: center;
+    border-top: 2px solid black;
+}
+
+.card-content .card-header p {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+
+/*Mobile Orientations*/
+@media screen and (max-width: 767px) and (orientation: landscape) {}
+
+
+/*Tablet Orientations*/
+@media screen and (max-width: 991px) and (orientation: landscape) {}

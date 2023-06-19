@@ -1,0 +1,360 @@
+@import
+url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+/* .......................................... */
+  
+  ul {
+    list-style: none;
+  }
+  
+  label {
+    cursor: pointer;
+  }
+  
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 0.6em;
+  }
+  
+  .filters {
+    width: 90px;
+    box-shadow: 0 0 0.5em 0 rgba(0,0,0,0.3);
+    padding: 1.5em;
+    font-weight: bold;
+    position: absolute;
+  }
+  
+  .filters__list li {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    padding-bottom: 1em;
+    line-height: 0;
+  }
+  
+  .filters__list li:last-child {
+    padding-bottom: 0;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+  
+  .filters:not(.filters--active) {
+    display: none;
+  }
+  
+  .button33 {
+    background-color: #7bae54;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: rgb(47, 117, 47);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button::after {
+    font-family: 'Droid Arabic Kufi', serif;
+    content: "▼";
+    padding-left: 0.5em;
+  }
+  
+  .button--highlight::after {
+    content: "✓";
+  }
+
+
+/* .......................................... */
+
+h1{
+  font-size: 1.0em;
+  font-family: 'Droid Arabic Kufi', serif;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+
+/* .......................................... */
+
+
+.but {
+  background-color: #7bae54;
+  /* background-color: #c2fbd7; */
+  border-radius: 100px;
+  /* box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px; */
+  color: rgb(255, 255, 255);
+  /* color: rgb(47, 117, 47); */
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.but:hover {
+  /* box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px; */
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+
+
+/* CSS */
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+.stu-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.1em;
+    min-width: 800px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.stu-table thead tr {
+    background-color: #7bae54;
+    color: #ffffff;
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Droid Arabic Kufi', serif;
+}
+
+
+.stu-table th,
+.stu-table td {
+    padding: 15px 20px;
+}
+
+
+.stu-table tbody tr {
+    border-bottom: 1px solid #dddddd !important;
+}
+
+
+.stu-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3 !important;
+}
+
+
+.stu-table tbody tr:last-of-type {
+    border-bottom: 4px solid #7bae54;
+}
+
+
+
+/* header from homepage */
+
+
+.dropdown {
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 0;
+  background: rgb(219, 218, 218);
+  top: 61px;
+  right: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition: all 250ms ease-in-out;
+  z-index: 999;
+}
+
+.dropdown li {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.dropdown label {
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.dropdown .dropdown-role-student {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  top: 15%;
+  font-size: 15px;
+  z-index: 999;
+}
+
+.dropdown .dropdown-role-org {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  top: 5%;
+  font-size: 18px;
+  z-index: 999;
+}
+
+.dropdown .dropdown-role-school {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  top: 15%;
+  font-size: 18px;
+  z-index: 999;
+}
+
+.dropdown li input {
+  width: 100%;
+  padding: 10px 34px;
+  background-color: rgb(102, 102, 102);
+  left: 1rem;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border: 1px solid #575756;
+  border-radius: 50px;
+  line-height: 18px;
+  font-size: 14px;
+  transition: transform 250ms ease-in-out;
+  z-index: 999;
+}
+
+.dropdown.open {
+  height: 235px;
+  padding: 10px 5px;
+  z-index: 999;
+}
+
+
+
+  .dropdown {
+      display: block;
+  }
+
+
+  .dropdown.open {
+      width: 320px;
+      z-index: 999;
+  }
+
+
+
+  .btn-submit {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    padding: 6px 10px;
+    background-color: #2ea44f;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 6px;
+    touch-action: manipulation;
+    white-space: nowrap;
+    line-height: 20px;
+    border: 0.2px solid black;
+}
+
+.btn-submit:hover {
+    background-color: #2c974b;
+}
+
+
+
+.web-logo a .icon-logo {
+  position: absolute;
+  height: 40px;
+  width: auto;
+  background-size: 20% auto;
+  left: 1rem;
+  top: 8px;
+  z-index: 99999;
+}
+
+.btn {
+  position: absolute;
+  right: 1rem;
+}
+
+.control-label 
+.text-info { 
+    display:inline-block; 
+}

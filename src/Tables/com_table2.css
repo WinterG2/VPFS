@@ -1,0 +1,54 @@
+@import
+url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+h1{
+  font-size: 1.0em;
+  font-family: 'Droid Arabic Kufi', serif;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+
+/* .......................................... */
+
+
+.stu-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.1em;
+    min-width: 800px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.stu-table thead tr {
+    background-color: #7bae54;
+    color: #ffffff;
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Droid Arabic Kufi', serif;
+}
+
+
+.stu-table th,
+.stu-table td {
+    padding: 15px 20px;
+}
+
+
+.stu-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+.stu-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}      
+
+
+.stu-table tbody tr:last-of-type {
+    border-bottom: 4px solid #7bae54;
+}
